@@ -1,64 +1,82 @@
 body {
-    font-family: Arial, sans-serif;  /* Đặt font chữ cho toàn bộ trang */
-    font-size: 16px;             /* Đặt kích thước chữ cho toàn bộ trang */
-    margin: 0;                   /* Loại bỏ khoảng trắng mặc định xung quanh nội dung */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
 }
+
 header {
-    background-color: #333;      /* Màu nền cho phần đầu trang (thường là màu tối) */
-    color: white;                /* Màu chữ cho phần đầu trang */
+    background-color: #333;
+    color: white;
     padding: 1em;
     text-align: center;
 }
+
 nav {
-    background-color: #4CAF50;  /* Màu nền cho thanh điều hướng (thường là màu xanh lá cây) */
-    overflow: hidden;            /* Xử lý tràn nội dung nếu có */
+    background-color: #4CAF50;
+    overflow: hidden;
 }
+
 nav ul {
     margin: 0;
     padding: 0;
-    list-style: none;          /* Loại bỏ dấu chấm đầu dòng */
+    list-style: none;
     display: flex;
     justify-content: center;
 }
+
 nav ul li {
-    display: inline-block;    /* Hiển thị các mục danh sách trên cùng một hàng */
-    width: 100px;             /* Đặt chiều rộng cho mỗi mục danh sách */
+    display: inline-block;
+    width: 100px;
     text-align: center;
 }
-nav ul li a{
+
+nav ul li a {
     display: block;
     color: white;
     text-decoration: none;
     padding: 14px 16px;
-
 }
-nav ul li a:hover{
-    background-color: #333;
+
+nav ul li a:hover {
+    background-color: #388E3C;
 }
 
 main {
-    background-color: #f0f0f0;  /* Màu nền cho phần nội dung chính (thường là màu sáng) */
-    font-size: 18px;             /* Đặt kích thước chữ cho phần nội dung chính */
+    background-color: #f0f0f0;
+    font-size: 18px;
     padding: 20px;
     min-height: 400px;
 }
+
+main h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 footer {
-    background-color: #222;      /* Màu nền cho phần cuối trang (thường là màu tối) */
-    color: white;                /* Màu chữ cho phần cuối trang */
+    background-color: #222;
+    color: white;
     text-align: center;
     padding: 1em;
     margin-top: 20px;
 }
+
 h1 {
-    text-align: center;      /* Căn giữa tiêu đề cấp 1 */
-    font-family: 'Times New Roman', Times, serif;  /* Đặt font chữ cho tiêu đề */
-    color: #0000FF;          /* Đặt màu chữ cho tiêu đề (màu xanh lam) */
-}
- h2{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0000FF;
 }
+
 p {
-    line-height: 1.5;         /* Đặt khoảng cách giữa các dòng trong đoạn văn */
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
 }
