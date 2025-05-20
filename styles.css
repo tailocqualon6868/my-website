@@ -68,7 +68,7 @@ footer {
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: #ffffff; /* Đổi màu chữ h1 thành màu trắng */
+    color: rgb(255, 255, 255); /* Đổi màu chữ h1 thành màu trắng */
     background-color: #00008b; /*Thêm màu nền cho h1*/
 }
 
